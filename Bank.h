@@ -1,4 +1,6 @@
-#pragma once
+#ifndef BANK_H
+#define BANK_H
+
 #include "Account.h"
 #include <vector>
 #include <utility>
@@ -23,3 +25,4 @@ private:
 	std::vector<Account> currentPool;
 };
 
+#endif

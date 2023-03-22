@@ -1,5 +1,8 @@
-#pragma once
+#ifndef ACCOUNT_H
+#define ACCOUNT_H
+
 #include <string>
+#include <vector>
 
 class Account {
 public:
@@ -25,3 +28,5 @@ private:
 	std::string password;
 	std::vector<std::string> operationHistory;
 };
+
+#endif
